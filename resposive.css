@@ -46,7 +46,7 @@
     }
 
     .container {
-        /* width: 80%; */
+        width: 100%;
     }
 
     .hero {
@@ -111,7 +111,7 @@
     }
 
     .price-cards {
-        padding: 8vh 18vh;
+        padding: 8vh 2vh;
     }
 
     .price-content {
@@ -126,7 +126,7 @@
     }
 
     .container {
-        width: 80%;
+        width: 100%;
     }
 
     .nav {
