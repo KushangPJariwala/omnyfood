@@ -1,0 +1,858 @@
+/* below 1350 */
+@media (max-width:84em) {
+    html {
+        font-size: 89%;
+    }
+
+    .hero {
+        max-width: 75rem;
+    }
+
+    .heading {
+        font-size: 3.1rem;
+    }
+
+    .customers-txt {
+        font-size: 1rem;
+        /* margin-left: 5.5vh; */
+    }
+}
+
+/* below 1200 (tablets) */
+
+@media (max-width:75em) {
+    html {
+        font-size: 80%;
+    }
+
+    .heading {
+        font-size: 2.9rem;
+    }
+
+    .customers-txt {
+        font-size: 1.2rem;
+        /* margin-left: 4.8vh; */
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        /* justify-content: center; */
+    }
+}
+
+/* 1000 */
+@media (max-width:62em) {
+    html {
+        font-size: 70%;
+    }
+
+    .container {
+        /* width: 80%; */
+    }
+
+    .hero {
+        max-width: 75rem;
+        gap: 0%;
+    }
+
+    .heading {
+        font-size: 2.8rem;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        padding: 4vh;
+    }
+
+    .mainImg {
+        /* height: 35rem; */
+        width: 95%;
+    }
+
+    .customer {
+        width: 100% !important;
+    }
+
+    .customer-img {
+        /* margin-right: -10%; */
+    }
+
+    .customers-txt {
+        /* border: 3px solid rgb(255, 0, 200); */
+        font-size: 1.1rem;
+        /* margin-left: 4.8vh; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .start-eat-well {
+        width: 33%;
+    }
+
+    .learn-more {
+        width: 33%;
+    }
+
+    .fb-content {
+        line-height: 1.5rem;
+    }
+
+    .feedback {
+        gap: 10%;
+    }
+
+    .cta-btn {
+        width: 90%;
+    }
+
+    .card {
+        padding: 5vh;
+        /* border: 2px solid red; */
+    }
+
+    .price-cards {
+        padding: 8vh 18vh;
+    }
+
+    .price-content {
+        padding: 8vh 0;
+    }
+}
+
+/* 850 */
+@media (max-width:53em) {
+    html {
+        font-size: 68%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .nav {
+        /* width: 60%; */
+        position: absolute;
+        background: linear-gradient(to right bottom, #ffddfcf4, #ffba7ef0);
+        top: 0;
+        left: 0;
+        /* padding-top: 15%;
+        padding-bottom: 15%; */
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        transition: all 0.5s;
+        /* gap: -50%; */
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .mobile-nav .nav {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+    }
+
+    .nav a {
+        font-size: 1.5rem;
+        /* border: 2px solid red; */
+        margin: 0;
+    }
+
+    .btn-mobile-nav {
+        display: block;
+    }
+
+    .mobile-nav .icon-mobile-nav[name="close-outline"] {
+        display: block;
+    }
+
+    .mobile-nav .icon-mobile-nav[name="menu-outline"] {
+        display: none;
+    }
+
+    .hero {
+        gap: 3%;
+        flex-direction: column;
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 3rem;
+        padding: 0 5vh;
+        /* border: 2px solid green; */
+    }
+
+    .hero-txt {
+        font-size: 1.5rem;
+    }
+
+    .right {
+        padding: 0vh;
+        text-align: center;
+        /* border: 3px solid rgb(255, 0, 200); */
+    }
+
+    .mainImg {
+        /* height: 35rem; */
+        width: 35%;
+    }
+
+    .start-eat-well {
+        width: 30%;
+        font-size: 1.1rem;
+    }
+
+    .learn-more {
+        font-size: 1.1rem;
+        width: 30%;
+    }
+
+    .btn-container {
+        justify-content: center;
+    }
+
+    .customers {
+        justify-content: center;
+    }
+
+    .customers-txt {
+        font-size: 1.3rem;
+        /* margin-left: 5vh; */
+        /* display: flex; */
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hiw2 {
+        font-size: 2.5rem;
+    }
+
+    .hiw-img-container::after {
+        border: 15px solid #862e9c;
+    }
+
+    .hiw-title {
+        /* border: 2px solid red; */
+        font-size: 1.8rem;
+    }
+
+    .testimonial {
+        padding: 10vh;
+        height: fit-content;
+    }
+
+    .gallary-img {
+        width: 90%;
+    }
+
+    .testimonial {
+        /* grid-template-rows: 1fr 2fr; */
+        grid-template-columns: 1fr;
+        gap: 4%;
+    }
+
+    .testi-title {
+        font-size: 2.4rem;
+    }
+
+    .feedback {
+        margin-top: 1vh;
+        /* border: 2px solid rgb(0, 0, 0); */
+        padding: 7vh;
+    }
+
+    .fb-content {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
+
+    .user-img {
+        width: 15%;
+    }
+
+    .gallary {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 0%;
+        row-gap: 4%;
+        /* padding: 2vh; */
+        /* border: 2px solid rgb(18, 7, 7); */
+        height: fit-content;
+        text-align: center;
+    }
+
+    .gallary-img {
+        /* border: 2px solid red; */
+        width: 80%;
+
+    }
+
+    .gallary-img:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        filter: contrast(1.3)
+    }
+
+    .card {
+        padding: 5vh 0vh;
+        /* border: 2px solid red; */
+    }
+
+
+    .price-cards {
+        padding: 8vh 12vh;
+    }
+
+    .price-content {
+        padding: 8vh 0;
+    }
+
+    .cta-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 3fr;
+        width: 60%;
+    }
+
+    .cta-img {
+        grid-row: 1;
+        /* width: 100%; */
+        /* height: 32rem; */
+        background-position: 0% 40%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .cta-content {
+        padding: 5vh;
+    }
+
+    .cta-header {
+        font-size: 2rem;
+    }
+
+    .cta-txt {
+        font-size: small;
+    }
+
+    .cta-form {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .meal-title {
+        font-size: 1.5rem;
+    }
+
+    .diet-label {
+        font-size: 0.8rem;
+    }
+
+    .meal-attribute {
+        font-size: 1.1rem;
+    }
+
+    .list-item {
+        line-height: 2.2rem;
+    }
+
+    .heading-tertiary {
+        font-size: 1.5rem;
+    }
+}
+
+/* 700 */
+@media (max-width:44em) {
+    .container {
+        /* border: 2px solid red; */
+        width: 85%;
+    }
+
+    .customers-txt {
+        font-size: 1.3rem;
+        margin-left: 0.5vh;
+        /* display: flex; */
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logos {
+        /* width: 12rem; */
+        /* height: 2.5rem; */
+        /* border: 2px solid red; */
+    }
+
+    .logoFeaturedIn {
+        width: 8.6rem;
+        height: 1.8rem;
+    }
+
+    .item {
+        /* border: 2px solid red; */
+        grid-template-columns: 1fr;
+        padding: 2vh;
+        margin-top: 0;
+    }
+
+    .item:nth-child(3) .hiw-img-container {
+        grid-row: 2;
+        /* border: 2px solid black; */
+    }
+
+    .hiw2 {
+        font-size: 2.3rem;
+        line-height: 2.2rem;
+    }
+
+
+    .hiw-title {
+        /* border: 2px solid red; */
+        font-size: 1.6rem;
+    }
+
+    .hiw-num {
+        font-size: 5rem;
+    }
+
+    .hiw-img {
+        width: 20%;
+        padding-top: 5vh;
+    }
+
+    .hiw-img-container::before {
+        width: 33%;
+        padding-bottom: 33%;
+
+    }
+
+    .hiw-img-container::after {
+        width: 25%;
+        padding-bottom: 25%;
+        border: 12px solid #862e9c;
+    }
+
+    .meal-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .meal-title {
+        font-size: 1.45rem;
+    }
+
+    .diet-label {
+        font-size: 0.7rem;
+    }
+
+    .meal-attribute {
+        font-size: 1.1rem;
+    }
+
+    .list {
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+
+    .list-item {
+        line-height: 2rem;
+    }
+
+    .heading-tertiary {
+        font-size: 1.5rem;
+    }
+
+    .price-cards {
+        padding: 8vh 8vh;
+    }
+
+}
+
+/* 550 */
+@media (max-width:32em) {
+
+    html {
+        font-size: 60%;
+    }
+
+    .container {
+        width: 85%;
+    }
+
+    .customers-txt {
+        font-size: 1.3rem;
+        /* margin-left: 5vh; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logos {
+        /* width: 12rem; */
+        /* height: 2.5rem; */
+        /* border: 2px solid red; */
+    }
+
+    .logoFeaturedIn {
+        width: 7rem;
+        height: 1.8rem;
+    }
+
+    .container-1 {
+        padding: 4vh 4vh;
+    }
+
+    .hero {
+        gap: 3%;
+        flex-direction: column;
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+        /* padding: 0 5vh; */
+        /* border: 2px solid green; */
+    }
+
+    .hero-txt {
+        font-size: 1.4rem;
+    }
+
+    .customers {
+        justify-content: center;
+        /* border: 2px solid red; */
+        /* flex-direction: column; */
+    }
+
+
+
+    .hiw2 {
+        line-height: 2.2rem;
+        font-size: 2.15rem;
+    }
+
+    .hiw-title {
+        /* border: 2px solid red; */
+        font-size: 1.6rem;
+    }
+
+    .hiw-num {
+        font-size: 5rem;
+    }
+
+    .hiw-img {
+        width: 20%;
+        padding-top: 5vh;
+    }
+
+    .hiw-img-container::before {
+        width: 33%;
+        padding-bottom: 33%;
+
+    }
+
+    .hiw-img-container::after {
+        width: 25%;
+        padding-bottom: 25%;
+        border: 12px solid #862e9c;
+    }
+
+    .meal-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .meal-title {
+        font-size: 1.45rem;
+    }
+
+    .diet-label {
+        font-size: 0.7rem;
+    }
+
+    .meal-attribute {
+        font-size: 1.1rem;
+    }
+
+    .list {
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+
+    .list-item {
+        line-height: 2rem;
+    }
+
+    .heading-tertiary {
+        font-size: 1.5rem;
+    }
+
+    .price-cards {
+        padding: 8vh 8vh;
+    }
+
+    .testi-title {
+        font-size: 2.2rem;
+    }
+
+    .testimonial {
+        /* gap: 10%; */
+        height: max-content;
+        padding-top: 5vh;
+    }
+
+    .feedback {
+        /* grid-template-rows: 1fr 2fr; */
+        grid-template-columns: 1fr;
+        /* gap: 4%; */
+        margin-top: 0vh;
+
+        /* border: 2px solid red; */
+    }
+
+    .user {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .user-img {
+        /* width: 18%; */
+        height: 80%;
+
+    }
+
+    .fb-content {
+        font-size: 1.1rem;
+        padding-left: 4vh;
+    }
+
+    .gallary {
+        padding-top: 8vh;
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+
+    .price-cards {
+        padding: 5vh 1vh;
+    }
+
+    .price {
+        font-size: 2.5rem;
+    }
+
+    .price-content {
+        padding: 4vh;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .feature {
+        padding: 2vh 2vh;
+
+    }
+
+    .grid--footer {
+        /* border: 2px solid red; */
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 2fr;
+    }
+
+    .logo-col {
+        grid-column: 1/-1;
+        width: fit-content;
+        height: fit-content;
+    }
+
+}
+
+@media (max-width:28.15em) {
+    html {
+        font-size: 55%;
+    }
+
+    .container {
+        width: 88%;
+    }
+
+    .mainImg {
+        display: none;
+    }
+
+    .logoFeaturedIn {
+        width: 6rem;
+        height: 1.5rem;
+        /* border: 2px solid red; */
+        padding: 2vh;
+        padding-top: 3vh;
+    }
+
+    .customer-img {
+        max-width: 2.7rem;
+        margin-right: -7%;
+    }
+
+    .meal-container {
+        grid-template-columns: 1fr;
+        padding: 0 10vh;
+    }
+
+    .meal-title {
+        font-size: 1.8rem;
+    }
+
+    .meal-attribute {
+        font-size: 1.3rem;
+    }
+
+    .diet-label {
+        font-size: 1rem;
+    }
+
+    .testimonial {
+        padding: 8vh;
+    }
+
+    .testi-title {
+        font-size: 1.85rem;
+        line-height: 2rem;
+    }
+
+    .feedback {
+        gap: 7%;
+        padding: 2vh;
+    }
+
+    .user-img {
+        height: 60%;
+    }
+
+    .fb-content {
+        font-size: 1rem;
+    }
+
+    .hiw2 {
+        font-size: 1.7rem;
+    }
+
+    .gallary {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(6, 1fr);
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .price-cards {
+        grid-template-columns: 1fr;
+        padding: 5vh 12vh;
+    }
+
+    .card-complete {
+        padding: 11vh 0;
+    }
+
+    .cta-form {
+        padding-bottom: 0vh;
+        row-gap: 1rem
+    }
+
+    .footer {
+        padding-top: 5vh;
+    }
+}
+
+@media (max-width:22em) {
+    html {
+        font-size: 45%;
+    }
+
+    .nav-header {
+        padding-left: 3vh;
+        padding-right: 3vh;
+    }
+
+    .container-1 {
+        padding: 3vh 0;
+    }
+
+    .heading {
+        font-size: 2.3rem;
+    }
+
+    .hero-txt {
+        font-size: 1.3rem;
+    }
+
+    .customers-txt {
+        font-size: 1.2rem;
+        margin-left: 2vh;
+    }
+
+    .logoFeaturedIn {
+        padding: 1vh;
+    }
+
+    .hiw-desc {
+        font-size: 1.2rem;
+    }
+
+    .meal-container {
+        padding: 0 2vh;
+    }
+
+    .testi-title {
+        font-size: 1.7rem;
+    }
+
+    .testimonial {
+        padding: 5vh;
+        padding-bottom: 8vh;
+    }
+
+    .price-cards {
+        padding: 0 8vh;
+    }
+
+    .cta-txt {
+        font-size: 1.2rem;
+    }
+
+    .cta-form {
+        padding: 0;
+        row-gap: 0;
+    }
+
+    .cta-btn {
+        width: 100%;
+    }
+
+    .cta-form input {
+        width: 94%;
+    }
+
+    .cta-form select {
+        width: 100%;
+    }
+
+    .grid--footer {
+        /* border: 2px solid red; */
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 2fr 2fr;
+    }
+
+    .footer {
+        padding-top: 5vh;
+    }
+}
