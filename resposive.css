@@ -696,7 +696,7 @@
     }
 
     .container-1 {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         padding-left: 0;
         padding-right: 0;
     }
@@ -808,7 +808,7 @@
     width: 100%;
 }
     .hiw-img-container {
-        border: 2px solid red;
+        /* border: 2px solid red; */
 
     }
 
