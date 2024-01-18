@@ -46,7 +46,7 @@
     }
 
     .container {
-        width: 100%;
+        /* width: 80%; */
     }
 
     .hero {
@@ -111,7 +111,7 @@
     }
 
     .price-cards {
-        padding: 8vh 2vh;
+        padding: 8vh 18vh;
     }
 
     .price-content {
@@ -126,7 +126,7 @@
     }
 
     .container {
-        width: 100%;
+        width: 80%;
     }
 
     .nav {
@@ -480,7 +480,7 @@
     }
 
     .container {
-        width: 85%;
+        width: 95%;
     }
 
     .customers-txt {
@@ -597,7 +597,7 @@
     }
 
     .price-cards {
-        padding: 8vh 8vh;
+        padding: 8vh 2vh;
     }
 
     .testi-title {
@@ -675,6 +675,11 @@
         width: fit-content;
         height: fit-content;
     }
+        .footer {
+            /* border: 2px solid red; */
+            background-color: #461652;
+            /* margin-top: 15vrgb(10, 3, 12)
+        }
 
 }
 
