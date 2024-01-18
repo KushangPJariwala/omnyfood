@@ -182,6 +182,7 @@ a{
   flex-direction: row; */
   width: max-content;
   /* border: 2px solid red; */
+  
 }
 .cust{
   display: block;
@@ -193,7 +194,6 @@ a{
   margin-right: -5%;
 }
 .customers-txt {
-  /* border: 2px solid black; */
   font-weight: 700;
   font-size: 1.2rem;
   margin-left: 8vh;
